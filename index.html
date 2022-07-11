@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Welcome to 201</title>
+
+    <style>
+
+      body {
+          background-color:beige;
+      }
+      
+      li {
+          color: purple;
+      }
+
+      h1 {background-color: rgb(216, 184, 42);
+          text-shadow: beige 3px 1px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Welcome to 201:</h1>
+    </header>
+ 
+    <main>
+ 
+      <h1>Class 1 Lab</h1>
+ 
+      <p style="color: red"> <b>Thank you for answering the initial prompts upon entrance:</b></p>
+      <hr>
+      <p style="color:#000000; background-color:aqua;">What is your first name?</p>
+      <p style="color:greenyellow; background-color:rgb(237, 66, 240)">What is your last name?</p>
+      <p style="color:purple; background-color:yellow;">What city are you from?</p>
+      <p style="color:#21618C; background-color:pink;">What state or region are you from?</p>
+      <hr> 
+    </main>
+   
+    <footer>
+      <p>&copy;Marina Sivilay for Code Fellows 201</p>
+    </footer>
+
+    <script>
+      
+      let firstName = prompt("What is your first name?");
+      console.log("Prompt 1: First Name, response: " + firstName);
+
+      let lastName = prompt("What is your last name?");
+      console.log("Prompt 2: Last Name, response: " + lastName);
+
+      let cityName = prompt("What city are you from?");
+      console.log("Prompt 3: City, response: " + cityName);
+
+      let stateName = prompt("What state or region are you from?");
+      console.log("Prompt 4: State or Region, response: " + stateName);
+
+      alert("Greetings, " + firstName + " " + lastName + " from " + cityName + ", " + stateName + " !");
+
+    </script>
+
+  </body>
+</html>
